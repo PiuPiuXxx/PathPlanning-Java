@@ -1,5 +1,13 @@
 package aStar;
 
+/**
+ * 
+ * @className:Test
+ * 
+ * @description:主程序测试入口
+ * @author chengweishao
+ */
+
 import java.io.File;
 
 import excel.ReadExcel;
@@ -19,7 +27,7 @@ public class Test
 		
 		MapInfo info=new MapInfo(map, line, row, new Node(41, 14), new Node(51, 25));
 		Coord[] path = new AStar().start(info);
-		//printPath(path);
+		printPath(path);
 		printMap(map);
 	}
 	

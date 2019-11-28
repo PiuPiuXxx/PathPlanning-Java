@@ -10,7 +10,7 @@ import java.util.Queue;
  * 
  * ClassName: AStar 
  * @Description: A星算法
- * @author kesar
+ * @author chengweishao
  */
 public class AStar
 {
